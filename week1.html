@@ -3,60 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="John Doe">
     <!--
         Name: Muath Alzghool
         Email: muath.alzghool
         Date: Jan 14,2024
         Description: 
     -->
+        <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <img width="100" src="./img/logo.jfif" alt="my logo">
-    <h1>Week 1: Introduction to HTML</h1>
-    <a href="./index.html">Main page</a>
-    <h2>HTML Elements</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad accusamus laborum atque doloribus vero fuga quisquam non nisi eligendi similique quaerat officia, asperiores ea ratione necessitatibus voluptatem, cupiditate provident nostrum!</p>
-    <hr>
-    <h3>Character Entity</h3>
-    <p>My name is &lt;Muath&gt; and my salary is 1800&pound;</p>
-    <hr>
-    <h3>sub tag</h3>
-    <h4>H<sub>2</sub>O</h4>
-    <hr>
-    <h3>super tag</h3>
-    <h4>f(x)=x<sup>2</sup></h4>
-    <hr>
-    <h3>Unordered list</h3>
-    <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-    </ul>
-    <hr>
-    <h3>ordered list</h3>
-    <ol reversed  start="5">
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-    </ol>
-    <hr>
-    <h3>Code Tag</h3>
-    <code>
-        #include&lt;iostream&gt;<br>
-        int main(){<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt;"Hello" &lt;&lt;endl;<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
-         }
-        
-    </code>
-    <hr>
-    <p>
-        Muath           Alzghool
-    </p>
-    <pre>
-        Muath         Alzghool
-    </pre>
-
+    <header>
+        <img width="100" src="./img/logo.jfif" alt="my logo">
+        <h1>Week 1: Introduction to HTML</h1>
+        <nav>
+        <ul>
+          <li><a href="./index.html">Homepage</a></li>
+          <li><a href="./week1.html">Week 1</a></li>
+          <li><a href="./week3.html">Week 2</a></li>
+          <li><a href="./week3.html">Week 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>HTML Elements</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad accusamus laborum atque doloribus vero fuga quisquam non nisi eligendi similique quaerat officia, asperiores ea ratione necessitatibus voluptatem, cupiditate provident nostrum!</p>
+                <hr>
+            </header>
+           <section>
+                <h3>Character Entity</h3>
+                <p>My name is &lt;Muath&gt; and my salary is 1800&pound;</p>
+                <hr>
+           </section>
+            <section>
+                <h3>sub tag</h3>
+                <h4>H<sub>2</sub>O</h4>
+                <hr>
+            </section>
+            <section>
+                <h3>super tag</h3>
+                <h4>f(x)=x<sup>2</sup></h4>
+                <hr>
+            </section>
+           <section>
+                <h3>Unordered list</h3>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+                <hr>
+           </section>
+           <section>
+                <h3>ordered list</h3>
+                <ol reversed  start="5">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ol>
+                <hr>
+           </section>
+          <section>
+                <h3>Code Tag</h3>
+                <code>
+                    #include&lt;iostream&gt;<br>
+                    int main(){<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt;"Hello" &lt;&lt;endl;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
+                     }
+                    
+                </code>
+                <hr>
+          </section>
+           <section>
+                <p>
+                    Muath           Alzghool
+                </p>
+                <pre>
+                    Muath         Alzghool
+                </pre>
+           </section>
+        </article>
+    </main>
+    <footer>
+        <p>@2026 Alzghool</p>
+    </footer>
 </body>
 </html>
